@@ -1,4 +1,4 @@
-Before running the code, please run npm install
+Before running the code, please run npm install.
 If more errors persists, please install the two libraries react-transition-group & react-router-dom!
 
 

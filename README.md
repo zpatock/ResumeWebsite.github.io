@@ -1,5 +1,5 @@
 Before running the code, please run npm install
-If more erros persists, please install the two libraries react-transition-group & react-router-dom!
+If more errors persists, please install the two libraries react-transition-group & react-router-dom!
 
 
 

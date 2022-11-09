@@ -8,6 +8,9 @@ import Coursework from "./Pages/courseWork";
 import EducationSkills from "./Pages/educationSkills";
 import ProjectsPage from "./Pages/projectsPage";
 
+
+// Main function that uses a brower router to create the SPA functionality
+
 function App() {
   return (
     <div>

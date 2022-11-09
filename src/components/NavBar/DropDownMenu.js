@@ -9,7 +9,7 @@ import { ReactComponent as ProfileIcon } from "../icons/profile-user-svgrepo-com
 import { Link } from "react-router-dom";
 
 
-//Creates a 
+//Creates a drop down menu with CSS Transitions
 
 
 function DropDownMenu() {
@@ -21,6 +21,7 @@ function DropDownMenu() {
     setMenuHeight(height);
   }
 
+  //Item in the dropdown menu that alllows for the transfer to a new menu view
   function DropdownItem(props) {
     return (
       <span
@@ -33,6 +34,7 @@ function DropDownMenu() {
     );
   }
 
+  //Item in the drop down menu that links to a new component view without an icon
   function DropdownItem2(props) {
     return (
       <div>
@@ -43,6 +45,7 @@ function DropDownMenu() {
     );
   }
 
+  //Item in the drop down menu that links to a new component view with an icon
   function DropdownItem3(props) {
     return (
       <div>
@@ -54,6 +57,7 @@ function DropDownMenu() {
     );
   }
 
+  //Core function that creates the seen dropdown menu
   return (
     <div className="dropdown" style={{ height: menuHeight }}>
       <CSSTransition

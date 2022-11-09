@@ -8,6 +8,7 @@ import DropDownMenu from "./DropDownMenu";
 import { Link } from "react-router-dom";
 import BackgroundClick from "./BackgroundClick";
 
+//This Component acts as the layout seen at the top of the screen
 function Layout() {
   return (
     <Navbar>

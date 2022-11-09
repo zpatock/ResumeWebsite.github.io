@@ -1,3 +1,5 @@
+
+// Work card component that allows for less repeated code when making the work experience pages
 function WorkCard(props) {
   return (
   <div className="workCard">{props.job}

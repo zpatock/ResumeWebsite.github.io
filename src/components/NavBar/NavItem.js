@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-
+//The function creates a list item that gets placed into the navbar component, it has the ability to link to other page
 function NavItem(props) {
   const [open, setOpen] = useState(false);
 

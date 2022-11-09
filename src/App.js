@@ -9,7 +9,7 @@ import EducationSkills from "./Pages/educationSkills";
 import ProjectsPage from "./Pages/projectsPage";
 
 
-// Main function that uses a brower router to create the SPA functionality
+// Main function that uses a browser router to create the SPA functionality
 
 function App() {
   return (
